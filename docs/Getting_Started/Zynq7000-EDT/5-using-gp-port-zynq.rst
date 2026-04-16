@@ -343,7 +343,7 @@ See the next chapter for information about using the AXI HP (High Performance) s
 
 .. include:: ../docs/substitutions.txt
 
-.. Copyright © 2022–2025 Advanced Micro Devices, Inc
+.. Copyright © 2022–2026 Advanced Micro Devices, Inc
 .. Copyright © 2021 Xilinx, Inc
 
 .. `Terms and Conditions <https://www.amd.com/en/corporate/copyright>`_.
