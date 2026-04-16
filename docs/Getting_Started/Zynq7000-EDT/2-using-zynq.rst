@@ -32,7 +32,7 @@ Creating Your Hardware Design
 
 1. Start the Vivado Design Suite.
 
-   -  On Windows 10, click the start menu and find **AMD Design Tools → Vivado 2025.2**.
+   -  On Windows 10, click the start menu and find **AMD Design Tools → Vivado 2026.1**.
    -  On Linux, run `source <Vivado installation path>/settings64.sh` to set up the environment and run ``vivado &`` to launch the Vivado IDE.
 
 2. In the Vivado Quick Start page, click **Create Project** to open the New Project wizard.
@@ -222,7 +222,7 @@ Two types of hardware can be exported from Vivado: pre-synthesis and post-implem
 
          write_hw_platform -fixed -force -file C:/edt/edt_zc702/system_wrapper.xsa
          INFO: [Vivado 12-4895] Creating Hardware Platform: C:/edt/edt_zc702/system_wrapper.xsa ...
-         INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vivado/2025.2/data/embeddedsw) loading 1 seconds
+         INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vivado/2026.1/data/embeddedsw) loading 1 seconds
          INFO: [Vivado 12-12467] The Hardware Platform can be used for Hardware
          INFO: [Vivado 12-4896] Successfully created Hardware Platform: C:/edt/edt_zc702/system_wrapper.xsa
 
@@ -291,7 +291,7 @@ Creating a Vitis Unified Platform Project
 1. Launch the Vitis Unified IDE with any of the actions below:
 
    1. From the Vivado IDE, select **Tools → Launch Vitis IDE**.
-   2. On Windows, launch the Vitis IDE by using the desktop shortcut or **Windows start menu → AMD Design Suite → Vitis 2025.2**.
+   2. On Windows, launch the Vitis IDE by using the desktop shortcut or **Windows start menu → AMD Design Suite → Vitis 2026.1**.
    3. On Linux, run ``source <Vitis Installation Directory>/settings64.sh`` to set up the environment and run ``vitis &``.
 
 2. Select **Open Workspace** and specify the location as **C:/edt/edt_zc702_workspace** or any desired path.
@@ -426,7 +426,7 @@ In the next chapter, you will learn how to debug software applications using the
 
 .. include:: ../docs/substitutions.txt
 
-.. Copyright © 2022–2025 Advanced Micro Devices, Inc
+.. Copyright © 2022–2026 Advanced Micro Devices, Inc
 .. Copyright © 2021 Xilinx, Inc
 
 .. `Terms and Conditions <https://www.amd.com/en/corporate/copyright>`_.
