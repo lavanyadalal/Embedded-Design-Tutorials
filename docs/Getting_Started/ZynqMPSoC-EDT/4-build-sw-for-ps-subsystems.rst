@@ -237,7 +237,7 @@ Running Hello World on the Board
 
       Zynq MP First Stage Boot Loader 
 
-      Release 2026.1   Nov 16 2025  -  11:22:27
+      Release 2026.1   Mar 16 2026  -  11:22:27
       PMU-FW is not running, certain applications may not be supported.
 
       Hello World
