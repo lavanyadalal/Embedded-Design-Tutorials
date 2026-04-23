@@ -528,7 +528,7 @@ Modifying the hello_sys_a53 Application Source Code
    .. code-block::
 
          --------------------------------------------------------------------------------
-          [4/22/2025, 3:23:25 AM]: Build for hello_sys_a53::build with id '5911c841-46d0-4dca-8114-7ee4ea7d2c80' started.
+          [3/16/2026, 3:23:25 AM]: Build for hello_sys_a53::build with id '5911c841-46d0-4dca-8114-7ee4ea7d2c80' started.
           --------------------------------------------------------------------------------
          -- Configuring done
          -- Generating done
@@ -537,7 +537,7 @@ Modifying the hello_sys_a53 Application Source Code
             29561	    292	  21275	  51128	   c7b8	hello_sys_a53.elf
          Build Finished successfully
          --------------------------------------------------------------------------------
-         [4/22/2025, 3:23:38 AM]: Build for hello_sys_a53::build with id '5911c841-46d0-4dca-8114-7ee4ea7d2c80' ended.
+         [3/16/2026, 3:23:38 AM]: Build for hello_sys_a53::build with id '5911c841-46d0-4dca-8114-7ee4ea7d2c80' ended.
 
 
    -  The **hello_sys_a53.elf** file is generated in the **hello_sys_a53 → build** folder.
