@@ -28,7 +28,7 @@ Input and Output Files
 
    1. This example requires a Linux host machine with PetaLinux installed. Refer to the *PetaLinux Tools Documentation: Reference Guide* (`UG1144 <https://www.xilinx.com/cgi-bin/docs/rdoc?v=latest;d=ug1144-petalinux-tools-reference-guide.pdf>`_) for information about dependencies for PetaLinux.
 
-   2. This example uses the `ZCU102 PetaLinux BSP <https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html>`_ to create a PetaLinux project. Ensure that you have downloaded the ZCU102 BSP for PetaLinux as instructed on the `PetaLinux Tools download page <https://www.xilinx.com/member/forms/download/xef.html?filename=xilinx-zcu102-v2022.2-final.bsp>`_.
+   2. This example uses the `ZCU102 PetaLinux BSP <https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html>`_ to create a PetaLinux project. Ensure that you have downloaded the ZCU102 BSP for PetaLinux as instructed on the `PetaLinux Tools download page <https://account.amd.com/en/forms/downloads/xef.html?filename=xilinx-zcu102-v2026.1-final.bsp>`_.
 
 .. _creating-a-petalinux-image:
 
@@ -78,7 +78,7 @@ Creating a PetaLinux Image
       cd xilinx-zcu102-xsct-2026.1
       petalinux-config --get-hw-description=<path to SDT directory>
 
-   `Generate the SDT with the SDT Generator Tool <https://github.com/Xilinx/system-device-tree-xlnx/blob/master/README.md>`_. The System Device Tree Generator (SDTGen) Tool is a package containing TCL scripts and Hardware HSI API's to extract hardware information from the XSA file into a System Device Tree (SDT) format. 
+   `Generate the SDT with the SDTGEN Tool <https://github.com/Xilinx/system-device-tree-xlnx/blob/master/README.md>`_. The System Device Tree Generator (SDTGen) Tool is a package containing TCL scripts and Hardware HSI API's to extract hardware information from the XSA file into a System Device Tree (SDT) format. 
 
 3. Build the PetaLinux project:
 
