@@ -36,7 +36,7 @@ Ensure that you have installed the Vitis |trade| 2024.1 unified software develop
 
 Visit this `web page <https://www.xilinx.com/support/download.html>`_ to download the required Vitis tool installer.
 
-Make sure your operating system is supported by the `Vitis embedded software development flow <https://docs.xilinx.com/r/en-US/ug1400-vitis-embedded/Installation-Requirements>`_. For more information on installing the Vitis unified software platform, refer to the Installation section of the Vitis embedded software development flow documentation (`UG1400 <https://docs.xilinx.com/r/en-US/ug1400-vitis-embedded/Installation>`_).
+Make sure your operating system is supported by the `Vitis embedded software development flow <https://docs.amd.com/r/en-US/ug1400-vitis-embedded/Installing-the-Vitis-Software-Platform>`_. For more information on installing the Vitis unified software platform, refer to the Installation section of the Vitis embedded software development flow documentation (`UG1400 <https://docs.amd.com/r/en-US/ug1400-vitis-embedded/Installing-the-Vitis-Software-Platform>`_).
 
 PetaLinux Tools
 ~~~~~~~~~~~~~~~
