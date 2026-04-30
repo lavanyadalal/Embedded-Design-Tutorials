@@ -38,7 +38,7 @@ Creating a PetaLinux Image
 
 1. Create a PetaLinux project using the following command:
 
-   There are two ways to generate a Petalinux project. Either using the BSP for a development board such as the ZC702, or if users have a custom board, users can use the template.
+   There are two ways to generate a PetaLinux project: either by using the BSP for a development board such as the ZC702, or by using the template if you have a custom board.
 
    .. note:: There are petalinux flows for both XSA and SDT. BSPs built using the System Device Tree (SDT) flow are recommended for new designs. BSPs listed with 'XSCT' are for the legacy XSA flow for users who are upgrading existing projects and do not wish to change generation methods. This tutorial follows the XSA flow.
 
@@ -173,7 +173,7 @@ Boot Linux on the Zynq |trade| 7000 SoC ZC702 target board using the JTAG mode.
 
 Boot on QEMU 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1. Change directory to the petalinux project, and use the petalinux-boot command to boot linux on an Emulated system
+1. Change directory to the petalinux project, and use the petalinux-boot command to boot Linux on an emulated system.
 
    .. code:: bash
 
@@ -248,7 +248,7 @@ Preparing the Linux Agent for Remote Connection
 
 The Vitis IDE needs a channel to download the application to the running target for debugging. When the target runs Linux, it uses TCF Agent running on the target. TCF Agent is added to the Linux rootfs from the PetaLinux configuration by default. When Linux boots up, it launches TCF Agent automatically. The Vitis IDE talks to TCF Agent on the board using an Ethernet connection.
 
-Setup the Ethernet Connection between Host and Physical Board
+Set Up the Ethernet Connection between Host and Physical Board
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are using the QEMU, please skip the following steps.
@@ -299,14 +299,14 @@ Running the Linux Application from the Vitis IDE
 
 1. Run the Linux application:
 
-   -  Highlight the **linux_hello** application, and under **FLOW**, click **Run** icon. Click **Open Settings** to create a new **Launch Configuration**.
+   -  Highlight the **linux_hello** application, and under **FLOW**, click the **Run** icon. Click **Open Settings** to create a new **Launch Configuration**.
    -  Make sure that the **Target Connection** is set to the target connection created in the previous section.
-   -  Set the **Work Directory** to a valid location on your linux filesystem. A typical example is **/home/petalinux**, which is the destination for copying the ELF file.
+   -  Set the **Work Directory** to a valid location on your Linux filesystem. A typical example is **/home/petalinux**, which is the destination for copying the ELF file.
 
    .. figure:: media/vitis_linux_run_configurations.png
       :alt: Vitis Linux Run Configurations
 
-   - Click **Run**.
+   -  Click **Run**.
 
    -  The console should print **Hello World**.
 
@@ -328,12 +328,12 @@ Debugging Linux applications requires the Linux agent to be set up properly. Ref
 
    -  Highlight the **linux_hello** application, and under **FLOW**, select **Debug** icon and click **Open Settings**. It creates a new **Launch Configuration**.
    -  Make sure that the **Target Connection** is set to the target connection created in the previous section.
-   -  Set the **Work Directory** to a valid location on your linux filesystem. A typical example is **/home/petalinux**, which is the destination for copying the ELF file.
+   -  Set the **Work Directory** to a valid location on your Linux filesystem. A typical example is **/home/petalinux**, which is the destination for copying the ELF file.
 
    .. figure:: media/vitis_linux_run_configurations.png
       :alt: Vitis Linux Run Configurations
 
-- Click **Run** icon.
+   -  Click the **Run** icon.
 
    The debug configuration has identical options to the run configuration. The difference between debugging and running is that debugging stops at the ``main()`` function.
 

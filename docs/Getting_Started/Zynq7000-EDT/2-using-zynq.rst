@@ -110,7 +110,7 @@ Perform the following steps to create an embedded processor project.
 Configuring the Zynq 7000 Processing System with Presets in Vivado
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In the Block Diagram window, message appears indicating that designer assistance is available, as shown in the following figure.
+In the Block Diagram window, a message appears indicating that designer assistance is available, as shown in the following figure.
 
 .. image:: ./media/image13.png
 
@@ -256,9 +256,9 @@ Setting Up the Board
 
    1. Connect a micro USB cable between the host machine and the ZC702 target board U23.
    
-   .. note:: 
-      
-	  Do not use J1.
+   .. note::
+
+      Do not use J1.
    
    2. Make sure that the **SW10** switch settings for JTAG selection are set to choose USB JTAG:
 
@@ -307,7 +307,7 @@ Creating a Vitis Unified Platform Project
 
 4. In the **Select Platform Creation Flow** page, Select **Hardware Design** and click **browse** to specify the XSA file ``C:\edt\edt_zc702\system_wrapper.xsa\``, and click **OK**.
 
-   -  When the XSA file is selected, the System Device Tree (SDT) is generated, and the metadata here is used to populate the processor list. Once the SDT is created, choose **standalone** and the processor is **ps7_cortexa9_0**.
+   -  When the XSA file is selected, the System Device Tree (SDT) is generated, and the metadata is used to populate the processor list. Once the SDT is created, choose **standalone** and select **ps7_cortexa9_0** as the processor.
    - Keep the **Generate boot Artifacts** option selected, as shown in the following figure.
    - Keep the **Compiler** as gcc.
 
@@ -315,18 +315,18 @@ Creating a Vitis Unified Platform Project
        :alt: Select XSA
 
        Select XSA
-   
--  Click **Finish**.
 
-7. The platform project is created. In the **Vitis Components** view, select **zc702_edt → settings → vitis-comp.json** to view the platform view as shown in the following figure.
+5. Click **Finish**.
+
+6. The platform project is created. In the **Vitis Components** view, select **zc702_edt → settings → vitis-comp.json** to view the platform view as shown in the following figure.
 
    .. image:: ./media/image27.png
 
-   Select the **Hardware Specification** link to see the the address map for the entire processing system.
+   Select the **Hardware Specification** link to see the address map for the entire processing system.
 
    .. image:: ./media/hardware_spec.png
 
-8. Build the platform by highlighting the platfom in **Vitis Components** view, and under **FLOW**, clicking the hammer button as shown in following figure.
+8. Build the platform by highlighting the platform in **Vitis Components** view, and under **FLOW**, clicking the hammer button as shown in following figure.
 
    .. figure:: ./media/image29.png
        :alt: Build Platform
@@ -383,13 +383,13 @@ Running the Hello World Application on a ZC702 Board
 
 2. Highlight **hello_world** application in **Vitis Components** view. Select **Run Settings** to open a **Launch Configuration**.
 
-   .. note:: 
-      
-	  Make sure that the **Target Connection** is correct.
+   .. note::
+
+      Make sure that the **Target Connection** is correct.
 
 3. Click **Run**.
 
-   “Hello World” appears on the  Serial Terminal.
+   “Hello World” appears on the Serial Terminal.
 
    .. note:: 
    

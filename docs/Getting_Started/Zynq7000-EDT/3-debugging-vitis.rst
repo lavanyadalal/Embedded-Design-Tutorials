@@ -44,7 +44,7 @@ Repeat the cycle of modifying the code, building the executable, and debugging t
 Example 3: Debugging Standalone Software Using the Vitis Software Platform
 ---------------------------------------------------------------------------
 
-Setup Target Connections
+Set Up Target Connections
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A target connection is established for the localhost (127.0.0.1) at port 3121, by default. However, if you opt for a remote connection, you need to set up the target connection for the Launch Configuration later in this tutorial. 
@@ -109,7 +109,7 @@ Debugging Standalone Applications in the Vitis IDE
 
 7. Rerun your code several times. Experiment with single-stepping, examining memory, breakpoints, modifying code, and adding print statements. Try adding and moving views.
 
-8. Click the **Stop** button on the tool bar to disconnect to the board, or exit the Vitis software platform directly.
+8. Click the **Stop** button on the toolbar to disconnect from the board, or exit the Vitis software platform directly.
 
    .. image:: ./media/debug_icons.PNG
 

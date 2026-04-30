@@ -11,7 +11,7 @@ Integrating AXI CDMA with the Zynq SoC PS HP Slave Port
 
 AMD Zynq |trade| 7000 SoC devices internally provide four high performance (HP) AXI slave interface ports that connect the programmable logic (PL) to asynchronous FIFO interface (AFI) blocks in the processing system (PS). The HP ports enable a high throughput data path between AXI masters in the programmable logic and the processing system’s memory system (DDR and on- chip memory). HP slave ports are configurable to 64-bit or 32-bit interfaces.
 
-This section helps creating a design using AXI CDMA intellectual property (IP) as master in fabric and integrate it with the PS HP 64 bit slave port. The block diagram for the system is as shown in the following figure.
+This section helps you create a design using AXI CDMA intellectual property (IP) as master in fabric and integrate it with the PS HP 64-bit slave port. The block diagram for the system is as shown in the following figure.
 
 .. image:: ./media/image61.jpeg
 
@@ -66,7 +66,7 @@ Update the Vivado Design
    1. In the Diagram window, right-click in the blank space and select **Add IP**.
    2. In the search box, type “CDMA” and double-click the **AXI Central Direct Memory Access** IP to add it to the block design. The AXI Central Direct Memory Access IP block appears in the Diagram view.
 
-3. Add the **Contact** IP to concatenate the interrupt signals:
+3. Add the **Concat** IP to concatenate the interrupt signals:
 
    1. In the Diagram window, right-click in the blank space and select **Add IP**.
 
@@ -200,7 +200,7 @@ The application software does the following tasks:
 
    f. Sets the number of bytes to transfer to the CDMA register. The application software starts the DMA transfer.
 
-3. After the CDMA interrupt is triggered, the DMA transfer is checked status.
+3. After the CDMA interrupt is triggered, the DMA transfer status is checked.
 
    If the transfer status is successful, the application software compares the source buffer location with the destination buffer location and displays the comparison result on the serial terminal, and then exits from the execution.
 
@@ -214,7 +214,7 @@ Creating the Standalone CDMA Application
 2. Update the hardware specification:
 
    1. Select the **zc702_edt** platform Component, and select **Settings** and click on **vitis-comp.json**.
-   2. Select **Switch XSA** and browse to the updated XSA above..
+   2. Select **Switch XSA** and browse to the updated XSA above.
 
 **Note:** Users can verify that the platform has updated by selecting the **Hardware Specification** and verify that the CDMA driver is present
 
@@ -244,9 +244,9 @@ Creating the Standalone CDMA Application
 
 6. Select the **cdma_app.c** file and click **Finish**.
 
-7. Build the CDMA application component by clicking the hammer button on the **cdma_app** under **FLOWS**.
+7. Build the CDMA application component by clicking the hammer button on the **cdma_app** under **FLOW**.
 
-Running CDMA the App on ZC702
+Running the CDMA App on ZC702
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Open the serial communication utility with baud rate set to **115200**.

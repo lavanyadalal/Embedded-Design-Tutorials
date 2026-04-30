@@ -188,7 +188,7 @@ Assigning Location Constraints to External Pins
 
    1. The Save Constraints window opens.
    2. Input a file name, such as **constraints**.
-   3. Keep File Type = **XDC** and File Location = ``****``.
+   3. Keep File Type = **XDC** and File Location as the default.
    4. Click **OK**.
    5. Click **OK** to launch synthesis, implementation first.
    6. In the Launch Runs window, keep launch runs on the local host and click **OK**.
@@ -197,7 +197,7 @@ Assigning Location Constraints to External Pins
 
       .. image:: ./media/image50.png
       
-   7. After bitstream generation completes, click cancel in the pop-up window.
+   7. After bitstream generation completes, click **Cancel** in the pop-up window.
 
 7. Export the hardware using **File → Export → Export Hardware**. Use the information in the table below to make selections in each of the wizard screens. Click **Next** where necessary.
 
@@ -285,9 +285,9 @@ Testing the PL IP with Prepared Software
 
     Because you updated the hardware specification with the XSA that includes a post-implementation bitstream, the launch configuration sets the bitstream file automatically. If the XSA file does not contain a bitstream, click the **Browse** button to point to bitstream. 
 
-.. note:: There are two ways to configure the ps7 susbsystem with the settings made in Vivado; using the FSBL or the ``ps7_init.tcl``. When users export the XSA file, this contains (amongst other files) the ``ps7_init.c/.h`` and the ``ps7_init.tcl``. The ``ps7_init.tcl`` is a script that contains all the register writes to configure the ps7 subsystem over the debugger. The FSBL uses the ``ps7_init.c/.h`` files. Since the debugger runs the register writes sequentially, this could take a long time. The fsbl is deployed on the target, so this is quicker. Therefore, I would recommend using the FSBL.
+.. note:: There are two ways to configure the ps7 subsystem with the settings made in Vivado; using the FSBL or the ``ps7_init.tcl``. When users export the XSA file, this contains (amongst other files) the ``ps7_init.c/.h`` and the ``ps7_init.tcl``. The ``ps7_init.tcl`` is a script that contains all the register writes to configure the ps7 subsystem over the debugger. The FSBL uses the ``ps7_init.c/.h`` files. Since the debugger runs the register writes sequentially, this could take a long time. The fsbl is deployed on the target, so this is quicker. Therefore, I would recommend using the FSBL.
 
-.. note:: When using the FSBL to configure the ps7 susbsystem, the debugger sets a breakpoint on the exit function of the FSBL. The debugger waits until this breakpoint is hit, or a timeout occurs. If the timeout occurs, then this could mean that the breakpoint was not hit. This could be due to the symbol info not resolved by the debugger. If users are connecting remotely then a **symbol server** in the Target Connections can be used to try resolve this issue.
+.. note:: When using the FSBL to configure the ps7 subsystem, the debugger sets a breakpoint on the exit function of the FSBL. The debugger waits until this breakpoint is hit, or a timeout occurs. If the timeout occurs, then this could mean that the breakpoint was not hit. This could be due to the symbol info not resolved by the debugger. If users are connecting remotely then a **symbol server** in the Target Connections can be used to try resolve this issue.
 
 8. In the system, the AXI GPIO pin is connected to push button **SW5** on the board, and the PS section GPIO pin is connected to push button **SW7** on the board through an EMIO interface.
 

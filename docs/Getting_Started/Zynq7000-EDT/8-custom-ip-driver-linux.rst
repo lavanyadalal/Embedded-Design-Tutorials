@@ -390,7 +390,7 @@ The advantage of using Vitis to create a linux module is that the user can devel
 
       RM_WORK_EXCLUDE += "linux-xlnx"
 
-2. Next, we can beuild the Petalinux project
+2. Next, build the PetaLinux project:
 
    .. code-block::
 
@@ -402,13 +402,14 @@ The advantage of using Vitis to create a linux module is that the user can devel
 
 **Note** User Managed Mode is a new feature in Vitis Unified IDE that allows users to build makefile based applications without using the IDE
 
-5. Create the **Build Configurations** 
-	a. Right click anywhere in the Explorer View and select **Edit Build Configurations**
-	b. Below is an example of two build conifgurations; build and clean
-	
-	.. image:: ./media/build_configurations.png
-	
-	**Note:** Users need to pass the **KVERSION** to the Makefile. This is the path to the **linux-zynq_generic_7z020-standard-build** in the petlainux project TMP_DIR. Users can get the TMP_DIR in **petalinux-config**
+5. Create the **Build Configurations**:
+
+   a. Right-click anywhere in the Explorer View and select **Edit Build Configurations**.
+   b. Below is an example of two build configurations: build and clean.
+
+   .. image:: ./media/build_configurations.png
+
+   **Note:** Users need to pass the **KVERSION** to the Makefile. This is the path to the **linux-zynq_generic_7z020-standard-build** in the PetaLinux project TMP_DIR. Users can get the TMP_DIR in **petalinux-config**.
 
 6. To build, right click in the Explorer view and select **Build**. Then select the Build configuration. This creates a **blink.ko** file
 
@@ -510,7 +511,7 @@ In this section, use the Vitis software platform installed on a Windows machine.
     |             | Sysroot                                       | Browse to sysroot  |
     +-------------+-----------------------------------------------+--------------------+
     |             |                                               |                    |
-    |             | Update Workspace Perference                   | Select             |
+    |             | Update Workspace Preference                   | Select             |
     +-------------+-----------------------------------------------+--------------------+
 
 
@@ -552,7 +553,7 @@ In this section, use the Vitis software platform installed on a Windows machine.
 
     The device file name is important, because the ioctl program assumes that is the file you use.
 
-11. Create a device node. Run the ``mknod`` command and select the the string from the printed message.
+11. Create a device node. Run the ``mknod`` command and select the string from the printed message.
 
     For example, the command ``mknod /dev/blink_Dev c 244 0`` creates the ``/dev/blink_Dev`` node.
 
@@ -575,8 +576,8 @@ In this section, use the Vitis software platform installed on a Windows machine.
     g. Click **OK**.
 
        The window displays the root directory content, because you previously established the connection between the Windows host machine and the target board.
-	
-    h. User can change the permissions here with **sudo -i**
+
+    h. User can change the permissions here with **sudo -i**.
 
     i. Right-click the **/** in the path name and create a new directory ``Apps``.
 

@@ -59,7 +59,7 @@ For more information on the embedded design process, see the *Vivado Design Suit
 Hardware Requirements for this Guide
 ------------------------------------
 
-This tutorial targets the Zynq ZC702 Rev 1.0 evaluation board, and can also be used for Rev 1.0 boards. To use this guide, you need the following hardware items, which are included with the evaluation board:
+This tutorial targets the Zynq ZC702 Rev 1.0 evaluation board. To use this guide, you need the following hardware items, which are included with the evaluation board:
 
 -  The ZC702 evaluation board
 -  AC power adapter (12 VDC)
