@@ -50,14 +50,14 @@ Example 6: Debugging Software Using the Vitis Debugger
 
 In this example, you will walk through debugging a “Hello World” application.
 
-.. note:: If you did not create a “Hello World” application on the APU or RPU, follow the steps in :ref:`creating-a-custom-bare-metal-application-for-an-arm-cortex-a53-based-apu` to create a new “Hello World” application.
+.. note:: If you did not create a “Hello World” application on the APU or RPU, follow the steps in :ref:`example-3-running-the-hello-world-application-from-arm-cortex-a53` to create a new “Hello World” application.
 
 After you create the “Hello World” application, work through the
 following example to debug the software using the Vitis debugger.
 
 1. Connect the JTAG cable, set the boot mode to JTAG, and power on the board. Refer to the steps in :ref:`example-3-running-the-hello-world-application-from-arm-cortex-a53`.
 
-2. Select the hello_a53 application and then click the Open Settings button beside Debug in the flow tab to review the launch settings. The select the **Debug** button. 
+2. Select the hello_a53 application and then click the Open Settings button beside Debug in the flow tab to review the launch settings. Then select the **Debug** button.
    
    .. note:: The above step launches the Application Debugger in the Debug perspective based on the project settings. Alternatively, you can create a debug configuration which looks like the following figure.
 
@@ -170,7 +170,7 @@ Setting Up the Target
 
 6. Load the FSBL on Cortex-A53 #0. FSBL initializes the Zynq UltraScale+ processing system.
 
-   .. code-block:: tcl
+   .. code-block:: 
 
          xsdb% dow {C:\edt\edt_zcu102_workspace\zcu102_edt\zynqmp_fsbl\build\fsbl.elf}
          xsdb% con
@@ -191,7 +191,7 @@ Loading the Application Using XSDB
 
    The command ``rst -processor`` clears the reset on an individual processor core.
 
-   This step is important, because when the Zynq MPSoC boots up JTAG boot mode, all the Cortex-A53 and Cortex-R5F cores are held in reset.
+   This step is important, because when the Zynq MPSoC boots up in JTAG boot mode, all the Cortex-A53 and Cortex-R5F cores are held in reset.
    You must clear the resets on each core before debugging on these cores. The ``rst`` command in XSDB can be used to clear the resets.
 
    .. note:: The command `rst -cores` clears resets on all the processor cores in the group (such as APU or RPU), of which the current target is a child. For example, when A53 #0 is the current target, `rst - cores` clears resets on all the Cortex-A53 cores in the APU.

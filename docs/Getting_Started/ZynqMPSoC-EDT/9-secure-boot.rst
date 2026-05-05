@@ -142,7 +142,7 @@ There are two steps in using the PUF for black key storage. In the first, PUF re
 
 The helper data and encrypted user key must both be stored in eFUSEs if the PUF eFUSE mode is used, and in the boot header if the PUF boot header mode is used. The procedure for the PUF boot header mode is discussed in :ref:`using-puf-in-boot-header-mode`. For the procedure to use PUF in eFUSE mode, see *Programming BBRAM and eFUSEs* (`XAPP1319 <https://docs.amd.com/go/en-US/xapp1319-zynq-usp-prog-nvm>`_).
 
-This tutorial uses PUF boot header mode as it does not require programming of eFUSEs, and is therefore useful for test and debug However, the most common mode is PUF eFUSE mode, as the PUB boot header mode requires a unique run of Bootgen for each and every device. 
+This tutorial uses PUF boot header mode as it does not require programming of eFUSEs, and is therefore useful for test and debug However, the most common mode is PUF eFUSE mode, as the PUF boot header mode requires a unique run of Bootgen for each and every device.
 
 .. _example-practical-methods-in-secure-boot:
 
@@ -655,9 +655,9 @@ The following steps describe the process to update the BIF file from the previou
 
 2. The above BIF file can be used for creating a final boot image using an AES key encrypted in the boot image header with the PUF KEK. This should be done using the following ``bootgen`` command:
 
-   .. code:
-   
-      bootgen -p zcu9eg -arch zynqmp -image key_generation.bif -w -o BOOT.bin``
+   .. code::
+
+      bootgen -p zcu9eg -arch zynqmp -image key_generation.bif -w -o BOOT.bin
 
    .. note:: The above steps can also be executed with PUF in eFUSE mode. In this case, repeat the previous steps using the PUF in eFUSE mode. This requires enabling the programming of eFUSEs during PUF registration by setting the ``XSK_PUF_PROGRAM_EFUSE`` macro in the ``xilskey_puf_registration.h`` file used to build the PUF registration application. The BIF must also be modified to use the encryption key from eFUSE, and the helper data and black key files should be removed. PUF in eFUSE mode is not covered in this tutorial to avoid programming the eFUSEs on development or tutorial systems.
       
