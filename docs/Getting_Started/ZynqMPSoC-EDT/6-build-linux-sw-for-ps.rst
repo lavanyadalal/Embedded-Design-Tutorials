@@ -327,5 +327,5 @@ In the :doc:`next chapter <./7-design1-using-gpio-timer-interrupts>`, you will c
 .. |reg|    unicode:: U+000AE .. REGISTERED TRADEMARK SIGN
    :ltrim:
 
-.. Copyright © 2016–2025 Advanced Micro Devices, Inc
+.. Copyright © 2016–2026 Advanced Micro Devices, Inc
 .. `Terms and Conditions <https://www.amd.com/en/corporate/copyright>`_.

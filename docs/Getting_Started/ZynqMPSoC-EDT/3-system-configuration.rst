@@ -247,5 +247,5 @@ In this example, you created a Vivado design with an MPSoC processing system and
 .. |reg|    unicode:: U+000AE .. REGISTERED TRADEMARK SIGN
    :ltrim:
    
-.. Copyright © 2016–2025 Advanced Micro Devices, Inc
+.. Copyright © 2016–2026 Advanced Micro Devices, Inc
 .. `Terms and Conditions <https://www.amd.com/en/corporate/copyright>`_.

@@ -32,7 +32,7 @@ Installation Requirements
 Vitis Integrated Design Environment and Vivado Design Suite
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ensure that you have installed the Vitis |trade| 2024.1 unified software development platform. The Vitis software platform comes with all the hardware and software as a package. If you install the Vitis IDE, you will automatically get both the Vivado Design Suite and the Vitis IDE. You do not have to make any extra selections in the installer.
+Ensure that you have installed the Vitis |trade| 2026.1 unified software development platform. The Vitis software platform comes with all the hardware and software as a package. If you install the Vitis IDE, you will automatically get both the Vivado Design Suite and the Vitis IDE. You do not have to make any extra selections in the installer.
 
 Visit this `web page <https://www.xilinx.com/support/download.html>`_ to download the required Vitis tool installer.
 
@@ -51,7 +51,7 @@ When you install PetaLinux tools on your system of choice, you must do the follo
 
 -  Download the ZCU102 PetaLinux BSP (ZCU102 BSP (prod-silicon)) from the downloads page.
 
--  Read and follow the installation instructions in the PetaLinux Tools Documentation: Reference Guide (`UG1144 <https://docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1144-petalinux-tools-reference-guide&resourceid=setting-up-your-environment-ac364401.html>`_).
+-  Read and follow the installation instructions in the PetaLinux Tools Documentation: Reference Guide (`UG1144 <https://docs.amd.com/access/sources/dita/topic?Doc_Version=2026.1%20English&url=ug1144-petalinux-tools-reference-guide&resourceid=setting-up-your-environment-ac364401.html>`_).
 
 Tutorial Design Files
 ~~~~~~~~~~~~~~~~~~~~~
@@ -68,5 +68,5 @@ You can download the reference design files from `GitHub <https://github.com/Xil
 .. |reg|    unicode:: U+000AE .. REGISTERED TRADEMARK SIGN
    :ltrim:
 
-.. Copyright © 2016–2025 Advanced Micro Devices, Inc
+.. Copyright © 2016–2026 Advanced Micro Devices, Inc
 .. `Terms and Conditions <https://www.amd.com/en/corporate/copyright>`_.

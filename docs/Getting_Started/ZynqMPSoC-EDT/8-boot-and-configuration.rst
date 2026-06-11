@@ -957,5 +957,5 @@ Boot Commands for Windows Host Machine
    :ltrim:
 
 
-.. Copyright © 2016–2025 Advanced Micro Devices, Inc
+.. Copyright © 2016–2026 Advanced Micro Devices, Inc
 .. `Terms and Conditions <https://www.amd.com/en/corporate/copyright>`_.

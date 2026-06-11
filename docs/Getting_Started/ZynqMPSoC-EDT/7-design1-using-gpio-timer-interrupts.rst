@@ -544,5 +544,5 @@ The :doc:`next chapter <./8-boot-and-configuration>` introduces more boot and co
 
 .. |image1| image:: ./media/image31.png
 
-.. Copyright © 2016–2025 Advanced Micro Devices, Inc
+.. Copyright © 2016–2026 Advanced Micro Devices, Inc
 .. `Terms and Conditions <https://www.amd.com/en/corporate/copyright>`_.

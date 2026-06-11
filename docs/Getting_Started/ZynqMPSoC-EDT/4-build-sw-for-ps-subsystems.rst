@@ -720,5 +720,5 @@ In the :doc:`next chapter <./5-debugging-with-vitis-debugger>`, you will learn a
 
 .. |Add Icon| image:: ./media/image31.png
 
-.. Copyright © 2016–2025 Advanced Micro Devices, Inc
+.. Copyright © 2016–2026 Advanced Micro Devices, Inc
 .. `Terms and Conditions <https://www.amd.com/en/corporate/copyright>`_.

@@ -1091,5 +1091,5 @@ You can use the Bootgen utility to verify the header values and the partition da
    :ltrim:
    
    
-.. Copyright © 2016–2025 Advanced Micro Devices, Inc
+.. Copyright © 2016–2026 Advanced Micro Devices, Inc
 .. `Terms and Conditions <https://www.amd.com/en/corporate/copyright>`_.
