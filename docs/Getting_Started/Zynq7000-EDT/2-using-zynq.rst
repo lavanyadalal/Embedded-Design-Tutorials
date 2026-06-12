@@ -116,7 +116,7 @@ In the Block Diagram window, a message appears indicating that designer assistan
 
 1. Click the **Run Block Automation** link. The Run Block Automation view opens.
 
-   Note that Cross Trigger In and Cross Trigger Out are disabled. For a detailed tutorial with information about cross trigger set-up, refer to the *Vivado Design Suite Tutorial: Embedded Processor Hardware Design* (`UG940 <https://docs.xilinx.com/v/u/en-US/ug940-vivado-tutorial-embedded-design>`_).
+   Note that Cross Trigger In and Cross Trigger Out are disabled. For a detailed tutorial with information about cross trigger set-up, refer to the *Vivado Design Suite Tutorial: Embedded Processor Hardware Design* (`UG940 <https://docs.amd.com/access/sources/ud/document?isLatest=true&url=ug940-vivado-tutorial-embedded-design&ft:locale=en-US>`_).
 
 2. Click **OK** to accept the default processor system options and make default pin connections.
 

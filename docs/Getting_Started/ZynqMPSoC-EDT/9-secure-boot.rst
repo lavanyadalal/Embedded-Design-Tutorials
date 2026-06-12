@@ -295,7 +295,7 @@ The following steps describe the process of creating the RSA private/public key 
 Generating SHA3 of Public Key in an RSA Private/Public Key Pair
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The following steps are required only for RSA authentication in eFUSE mode, and can be skipped for RSA authentication in boot header mode. The 384 bits from ``sha3.txt`` can be programmed to eFUSE for RSA  authentication in eFUSE mode. For more information, see *Programming BBRAM and eFUSEs* (`XAPP1319 <https://docs.xilinx.com/v/u/en-US/xapp1319-zynq-usp-prog-nvm>`_).
+The following steps are required only for RSA authentication in eFUSE mode, and can be skipped for RSA authentication in boot header mode. The 384 bits from ``sha3.txt`` can be programmed to eFUSE for RSA  authentication in eFUSE mode. For more information, see *Programming BBRAM and eFUSEs* (`XAPP1319 <https://docs.amd.com/go/en-US/ug1319-sp701-eval-bd>`_).
 
 1. Perform the steps from the prior section.
 
@@ -327,7 +327,7 @@ Additional RSA Private/Public Key Pairs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Follow the steps in this section to generate the secondary RSA private/public key pair required for key revocation, which requires the
-programming of eFUSE. For more information, see *Programming BBRAM and eFUSEs* (`XAPP1319 <https://docs.xilinx.com/v/u/en-US/xapp1319-zynq-usp-prog-nvm>`_). You can skip this section if you do not intend to use key revocation.
+programming of eFUSE. For more information, see *Programming BBRAM and eFUSEs* (`XAPP1319 <https://docs.amd.com/go/en-US/ug1319-sp701-eval-bd>`_). You can skip this section if you do not intend to use key revocation.
 
 Repeat the steps from :ref:`creating-rsa-privatepublic-key-pairs` and :ref:`generating-sha3-of-public-key-in-an-rsa-privatepublic-key-pair` to generate the second RSA private/public key pair and the SHA3 of the second PPK.
 
@@ -514,7 +514,7 @@ When all the desired encryption features have been enabled, you can generate all
 Using Key Revocation
 ~~~~~~~~~~~~~~~~~~~~
 
-Key revocation allows you to revoke a RSA primary or secondary public key. Key revocation can be used due to elapsed time of key use, or if there is an indication that the key is compromised. The primary and secondary key revocation is controlled by one-time programmable eFUSEs. AMD Secure Key Library is used for key revocation, allowing key revocation in fielded devices. Key revocation is discussed further in the *Zynq UltraScale+ Device Technical Reference Manual* (`UG1085 <https://docs.xilinx.com/v/u/en-US/ug1085-zynq-ultrascale-trm>`_).
+Key revocation allows you to revoke a RSA primary or secondary public key. Key revocation can be used due to elapsed time of key use, or if there is an indication that the key is compromised. The primary and secondary key revocation is controlled by one-time programmable eFUSEs. AMD Secure Key Library is used for key revocation, allowing key revocation in fielded devices. Key revocation is discussed further in the *Zynq UltraScale+ Device Technical Reference Manual* (`UG1085 <https://docs.amd.com/go/en-US/ug1085-zynq-ultrascale-trm>`_).
 
 .. _using-the-puf:
 
@@ -528,7 +528,7 @@ In this section, the PUF is used for black key storage in the PUF boot header mo
 PUF Registration in Boot Header Mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The PUF registration software is included in the XILSKEY library. The PUF registration software operates in boot header mode or eFUSE mode. The boot header mode allows development without programming the OTP eFUSEs. The eFUSE mode is used in production. This lab runs through PUF registration in boot header mode only. For PUF registration using eFUSE, see *Programming BBRAM and eFUSEs* (`XAPP1319 <https://docs.xilinx.com/v/u/en-US/xapp1319-zynq-usp-prog-nvm>`_).
+The PUF registration software is included in the XILSKEY library. The PUF registration software operates in boot header mode or eFUSE mode. The boot header mode allows development without programming the OTP eFUSEs. The eFUSE mode is used in production. This lab runs through PUF registration in boot header mode only. For PUF registration using eFUSE, see *Programming BBRAM and eFUSEs* (`XAPP1319 <https://docs.amd.com/go/en-US/ug1319-sp701-eval-bd>`_).
 
 The PUF registration software accepts a red (unencrypted) key as input, and produces syndrome data (helper data), which also contains CHASH and AUX, and a black (encrypted) key. When the PUF boot header mode is used, the output is put in the boot header. When the PUF eFUSE mode is used, the output is programmed into eFUSEs.
 

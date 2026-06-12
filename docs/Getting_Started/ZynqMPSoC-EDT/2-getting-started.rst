@@ -36,12 +36,12 @@ Ensure that you have installed the Vitis |trade| 2026.1 unified software develop
 
 Visit this `web page <https://www.xilinx.com/support/download.html>`_ to download the required Vitis tool installer.
 
-Make sure your operating system is supported by the `Vitis embedded software development flow <https://docs.amd.com/r/en-US/ug1400-vitis-embedded/Installing-the-Vitis-Software-Platform>`_. For more information on installing the Vitis unified software platform, refer to the Installation section of the Vitis embedded software development flow documentation (`UG1400 <https://docs.amd.com/r/en-US/ug1400-vitis-embedded/Installing-the-Vitis-Software-Platform>`_).
+Make sure your operating system is supported by the `Vitis embedded software development flow <https://docs.amd.com/access/sources/dita/topic?isLatest=true&url=ug1400-vitis-embedded&resourceid=gwj1602184970409.html&ft:locale=en-US>`_. For more information on installing the Vitis unified software platform, refer to the Installation section of the Vitis embedded software development flow documentation (`UG1400 <https://docs.amd.com/access/sources/dita/topic?isLatest=true&url=ug1400-vitis-embedded&resourceid=gwj1602184970409.html&ft:locale=en-US>`_).
 
 PetaLinux Tools
 ~~~~~~~~~~~~~~~
 
-Install the PetaLinux tools to run through the Linux portion of this tutorial. PetaLinux tools run under the Linux host system. The supported operation systems can be checked from the PetaLinux Tools Documentation: Reference Guide (`UG1144 <https://docs.amd.com/r/en-US/ug1144-petalinux-tools-reference-guide/Installation-Requirements>`_).
+Install the PetaLinux tools to run through the Linux portion of this tutorial. PetaLinux tools run under the Linux host system. The supported operation systems can be checked from the PetaLinux Tools Documentation: Reference Guide (`UG1144 <https://docs.amd.com/access/sources/dita/topic?isLatest=true&url=ug1144-petalinux-tools-reference-guide&resourceid=installation-requirements-ac434274.html&ft:locale=en-US>`_).
 
 You can use either a dedicated Linux host system or a virtual machine running one of these Linux operating systems on your Windows development platform.
 
@@ -51,7 +51,7 @@ When you install PetaLinux tools on your system of choice, you must do the follo
 
 -  Download the ZCU102 PetaLinux BSP (ZCU102 BSP (prod-silicon)) from the downloads page.
 
--  Read and follow the installation instructions in the PetaLinux Tools Documentation: Reference Guide (`UG1144 <https://docs.amd.com/access/sources/dita/topic?Doc_Version=2026.1%20English&url=ug1144-petalinux-tools-reference-guide&resourceid=setting-up-your-environment-ac364401.html>`_).
+-  Read and follow the installation instructions in the PetaLinux Tools Documentation: Reference Guide (`UG1144 <https://docs.amd.com/access/sources/dita/topic?isLatest=true&url=ug1144-petalinux-tools-reference-guide&resourceid=setting-up-your-environment-ac364401.html&ft:locale=en-US>`_).
 
 Tutorial Design Files
 ~~~~~~~~~~~~~~~~~~~~~

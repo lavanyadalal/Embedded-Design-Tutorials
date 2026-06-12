@@ -27,7 +27,7 @@ Input and Output Files
 
 .. important::
 
-   1. This example requires a Linux host machine with PetaLinux installed. Refer to the *PetaLinux Tools Documentation: Reference Guide* (`UG1144 <https://www.xilinx.com/cgi-bin/docs/rdoc?v=latest;d=ug1144-petalinux-tools-reference-guide.pdf>`_) for information about dependencies for PetaLinux.
+   1. This example requires a Linux host machine with PetaLinux installed. Refer to the *PetaLinux Tools Documentation: Reference Guide* (`UG1144 <https://docs.amd.com/access/sources/dita/map?isLatest=true&url=ug1144-petalinux-tools-reference-guide&ft:locale=en-US>`_) for information about dependencies for PetaLinux.
 
    2. This example uses the `ZCU102 PetaLinux BSP <https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html>`_ to create a PetaLinux project. Ensure that you have downloaded the ZCU102 BSP for PetaLinux as instructed on the `PetaLinux Tools download page <https://account.amd.com/en/forms/downloads/xef.html?filename=xilinx-zcu102-v2026.1-final.bsp>`_.
 

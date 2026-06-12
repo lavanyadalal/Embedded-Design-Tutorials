@@ -15,7 +15,7 @@ The boot method of Zynq |trade| 7000 devices can be categorized into these two g
 Master Boot Method
 ~~~~~~~~~~~~~~~~~~
 
-In the master boot method, the CPU loads and executes the external boot images from non-volatile memory into the processing system (PS). Different kinds of non-volatile memories such as QSPI, NAND, NOR flash, and SD cards are used to store boot images. In this method, the master boot method is further divided into secure and non-secure modes. Refer to the *Zynq 7000 SoC Technical Reference Manual* (`UG585 <https://www.xilinx.com/cgi-bin/docs/ndoc?t=user_guides;d=ug585-Zynq-7000-TRM.pdf>`_) for more details.
+In the master boot method, the CPU loads and executes the external boot images from non-volatile memory into the processing system (PS). Different kinds of non-volatile memories such as QSPI, NAND, NOR flash, and SD cards are used to store boot images. In this method, the master boot method is further divided into secure and non-secure modes. Refer to the *Zynq 7000 SoC Technical Reference Manual* (`UG585 <https://docs.amd.com/access/sources/dita/map?isLatest=true&url=ug585-zynq-7000-SoC-TRM&ft:locale=en-US>`_) for more details.
 
 The boot process is initiated by one of the Arm |reg| Cortex |trade|-A9 CPUs in the PS and it executes on-chip ROM code. The on-chip ROM code is responsible for loading the first stage boot loader (FSBL). The FSBL does the following:
 
@@ -279,7 +279,7 @@ Building the PetaLinux Image
 
    PetaLinux generates the new U-Boot and `boot.scr`.
 
-   .. note:: For more information, refer to the *PetaLinux Tools Documentation: Reference Guide* (`UG1144 <https://docs.xilinx.com/r/2022.2-English/ug1144-petalinux-tools-reference-guide>`_).
+   .. note:: For more information, refer to the *PetaLinux Tools Documentation: Reference Guide* (`UG1144 <https://docs.amd.com/access/sources/dita/map?isLatest=true&url=ug1144-petalinux-tools-reference-guide&ft:locale=en-US>`_).
 
 Making a Linux Bootable Image for QSPI Flash with PetaLinux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

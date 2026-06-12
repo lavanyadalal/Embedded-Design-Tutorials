@@ -448,7 +448,7 @@ Example Project: Creating Linux Images Using PetaLinux
 
 This section explains how to configure and build the Linux operating system for an Arm Cortex-A72 core-based APU on a Versal device. You can use the PetaLinux tool with the board-specific BSP to configure and build Linux images.
 
-This example needs a Linux host machine. Refer to the PetaLinux Tools Documentation Reference Guide `[UG1144] <https://www.xilinx.com/cgi-bin/docs/rdoc?v=latest;d=ug1144-petalinux-tools-reference-guide.pdf>`__ for information on dependencies and installation procedure for the PetaLinux tool.
+This example needs a Linux host machine. Refer to the PetaLinux Tools Documentation Reference Guide `[UG1144] <https://docs.amd.com/access/sources/dita/map?isLatest=true&url=ug1144-petalinux-tools-reference-guide&ft:locale=en-US>`__ for information on dependencies and installation procedure for the PetaLinux tool.
 
 .. important:: 
 

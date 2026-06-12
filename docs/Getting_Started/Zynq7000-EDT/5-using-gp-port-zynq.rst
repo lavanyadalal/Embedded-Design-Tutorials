@@ -182,7 +182,7 @@ Assigning Location Constraints to External Pins
 
       Pin Assigned
 
-   .. note:: For additional information about creating other design constraints, refer to the *Vivado Design Suite User Guide: Using Constraints* (`UG903 <https://docs.amd.com/access/sources/dita/map?Doc_Version=2023.2%20English&url=ug903-vivado-using-constraints>`_).
+   .. note:: For additional information about creating other design constraints, refer to the *Vivado Design Suite User Guide: Using Constraints* (`UG903 <https://docs.amd.com/access/sources/dita/map?isLatest=true&url=ug903-vivado-using-constraints&ft:locale=en-US>`_).
 
 6. In the Flow Navigator, under Program and Debug, select **Generate Bitstream**.
 

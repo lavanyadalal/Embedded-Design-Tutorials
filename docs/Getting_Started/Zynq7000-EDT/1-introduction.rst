@@ -54,7 +54,7 @@ The Vitis software platform is used for software development, and can be install
 
 The Zynq SoC Processing System (PS) can be booted and made to run without programming the FPGA (programmable logic or PL). However, in order to use any soft IP in the fabric, or to bond out PS peripherals using EMIO, programming of the PL is required. You can program the PL in the Vitis software platform.
 
-For more information on the embedded design process, see the *Vivado Design Suite Tutorial: Embedded Processor Hardware Design* (`UG940 <https://docs.xilinx.com/v/u/en-US/ug940-vivado-tutorial-embedded-design>`_).
+For more information on the embedded design process, see the *Vivado Design Suite Tutorial: Embedded Processor Hardware Design* (`UG940 <https://docs.amd.com/access/sources/ud/document?isLatest=true&url=ug940-vivado-tutorial-embedded-design&ft:locale=en-US>`_).
 
 Hardware Requirements for this Guide
 ------------------------------------
@@ -88,14 +88,14 @@ The PetaLinux tools offer everything necessary to customize, build, and deploy e
 
 Install the PetaLinux Tools to run through the embedded Linux portion of this tutorial. PetaLinux can be installed from its own installer or from the Vitis installer.
 
-PetaLinux tools run under the Linux host system only. Refer to the “Setting Up Your Environment” chapter in the *PetaLinux Tools Reference Guide* (`UG1144 <https://docs.xilinx.com/r/en-US/ug1144-petalinux-tools-reference-guide/Overview>`_) for supported operating systems and installation instructions. You can use either a dedicated Linux host system or a virtual machine running one of these Linux operating systems on your Windows development platform.
+PetaLinux tools run under the Linux host system only. Refer to the “Setting Up Your Environment” chapter in the *PetaLinux Tools Reference Guide* (`UG1144 <https://docs.amd.com/access/sources/dita/topic?isLatest=true&url=ug1144-petalinux-tools-reference-guide&resourceid=overview-aa364401.html&ft:locale=en-US>`_) for supported operating systems and installation instructions. You can use either a dedicated Linux host system or a virtual machine running one of these Linux operating systems on your Windows development platform.
 
-The PetaLinux Tools design hub provides information and links to documentation specific to the PetaLinux Tools. For more information, see `Embedded Design Hub - PetaLinux Tools <https://www.xilinx.com/support/documentation-navigation/design-hubs/dh0016-petalinux-tools-hub.html>`_.
+The PetaLinux Tools design hub provides information and links to documentation specific to the PetaLinux Tools. For more information, see `Embedded Design Hub - PetaLinux Tools <https://docs.amd.com/go/en-US/dh0016-petalinux-tools-hub>`_.
 
 Software Licensing
 ~~~~~~~~~~~~~~~~~~
 
-AMD software uses FLEXnet licensing. When the software is first run, it performs a license verification process. If the license verification does not find a valid license, the license wizard guides you through the process of obtaining a license and ensuring that the license can be used with the tools installed. If you do not need the full version of the software, you can use an evaluation license. For installation instructions and information, see the *Vivado Design Suite User Guide: Release Notes, Installation, and Licensing Guide* (`UG973 <https://docs.xilinx.com/r/en-US/ug973-vivado-release-notes-install-license/Release-Notes>`_).
+AMD software uses FLEXnet licensing. When the software is first run, it performs a license verification process. If the license verification does not find a valid license, the license wizard guides you through the process of obtaining a license and ensuring that the license can be used with the tools installed. If you do not need the full version of the software, you can use an evaluation license. For installation instructions and information, see the *Vivado Design Suite User Guide: Release Notes, Installation, and Licensing Guide* (`UG973 <https://docs.amd.com/access/sources/dita/map?isLatest=true&url=ug973-vivado-release-notes-install-license&ft:locale=en-US>`_).
 
 .. _design-files-for-this-tutorial:
 
