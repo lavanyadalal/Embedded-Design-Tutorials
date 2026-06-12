@@ -22,7 +22,7 @@ Configuring Hardware
 
 The first step in this design is to configure the PS and PL sections. This can be done in Vivado IP integrator. Start with adding the required IPs from the Vivado IP catalog, and then connect the components to blocks in the PS subsystem.
 
-1. If the Vivado Design Suite is already open, start from the block diagram shown in and jump to step 4.
+1. If the Vivado Design Suite is already open, start from the existing block diagram and jump to step 4.
 
 2. Open the Vivado project that you created in the introduction tutorial:
 
@@ -340,7 +340,7 @@ To create a Linux domain for generating Linux applications, follow these steps:
    3. OS: Linux
    4. Processor: psu_cortexa53
 
-5. Build the platform to make the domain change take effects.
+5. Build the platform to make the domain change take effect.
 
 Creating the Linux Application Project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

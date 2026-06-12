@@ -237,7 +237,7 @@ Running the Image on the ZCU102 Board
 
 You can see that the terminal screen configured for UART-1 also prints a message. This is the print message from the R5 bare-metal application running on the RPU, configured to use the UART-1 interface. This application is loaded by the FSBL onto the RPU.
 
-The bare-metal application has been modified to include the UART interrupt example. This application now is now in a waiting for interrupt (WFI) state until user input is detected from the keyboard at the UART-1 terminal.
+The bare-metal application has been modified to include the UART interrupt example. This application is now in a waiting-for-interrupt (WFI) state until user input is detected from the keyboard at the UART-1 terminal.
 
 .. image:: ./media/image61.png
 

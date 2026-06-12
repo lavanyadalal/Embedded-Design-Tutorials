@@ -342,7 +342,7 @@ In this step, you will prepare for the next example design: running a “Hello W
 What Just Happened?
 ^^^^^^^^^^^^^^^^^^^
 
-The edt_zcu102_wrapper platform is, by default, assigned the default domain for psu_cortexa53_0. You created a new domain for cortexr5_0 in this platform..
+The edt_zcu102_wrapper platform is, by default, assigned the default domain for psu_cortexa53_0. You created a new domain for cortexr5_0 in this platform.
 
 Creating a “Hello World” Application on Arm Cortex-R5F
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -586,7 +586,7 @@ directory. They will be imported in the next steps.
 Modifying the Linker Script for testapp_r5
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When two applications needs to run at the same time, they cannot use resources in conflict. They should not each other’s memory space. They should use their own peripherals, or share peripherals by time. In this step, memory space is assigned by updating the linker scripts.
+When two applications need to run at the same time, they cannot use resources in conflict. They should not use each other’s memory space. They should use their own peripherals, or share peripherals by time. In this step, memory space is assigned by updating the linker scripts.
 
 1. In the Explorer view, expand the **testapp_r5 project**.
 
@@ -676,7 +676,7 @@ The Vitis tool uses JTAG to control the board, and performed the following tasks
 -  Ran applications on both processors.
 -  The application on APU printed on UART-0 and the application on RPU printed on UART-1.
 
-You can view the detailed steps by clicking **hello_system** and selecting **Open Settings** beside Run in the flow tab to display the ``launch.json`` configuration file..
+You can view the detailed steps by clicking **hello_system** and selecting **Open Settings** beside Run in the flow tab to display the ``launch.json`` configuration file.
 
 .. figure:: media/vitis_run_configurations.png
 
